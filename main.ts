@@ -56,7 +56,7 @@ namespace oled12864_image {
      * @param bitmap ビットマップ。, eg: "01001001"
      * @param color 表示色 。, eg: 1
      */
-    //% blockId="displayImage" block="dispalyImage x|%x y%y xs:xSize ys:ySize zoom:%zoom bitmap:%bitmap color:%color"
+    //% blockId="displayImage" block="dispalyImage X%x Y%y xSize%xs ySize%ys Zoom%zoom bitmap%bitmap color%color"
     //% weight=92 blockGap=10
     export function showImage(x: number, y: number, xs: number, ys: number, zoom: boolean = true, image: string, color: number = 1) {
         let col = 0
@@ -91,7 +91,7 @@ namespace oled12864_image {
      * @param bitmap ビットマップ。, eg: "01001001"
      * @param color 表示色 。, eg: 1
      */
-    //% blockId="displayImage" block="dispalyImageRev x|%x y%y xs:xSize ys:ySize zoom:%zoom bitmap:%bitmap color:%color"
+    //% blockId="displayImageRev" block="dispalyImageRev X%x Y%y xSize%xs ySize%ys Zoom%zoom bitmap%bitmap color%color"
     //% weight=92 blockGap=10
     export function showImageRev(x: number, y: number, xs: number, ys: number, zoom: boolean = true, image: string, color: number = 1) {
         let col = 0
