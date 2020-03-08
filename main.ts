@@ -2,7 +2,7 @@
   OLED12864 display image block
 */
 
-//% color=#006464 weight=20 icon="\uf1b9" block="displayImage"
+//% color=#006464 weight=20 icon="\uf03e" block="displayImage"
 namespace oled12864_image {
 
     let _I2CAddr = 60;
